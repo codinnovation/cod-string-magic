@@ -1,8 +1,12 @@
 {
-  "name": "string-utils",
-  "version": "1.0.0",
+  "name": "string-utils-cod",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
+  "exports": {
+    "import": "./index.js",
+    "require": "./index.cjs"
+  },
   "devDependencies": {
     "@types/node": "^22.13.9",
     "ts-node": "^10.9.2",
