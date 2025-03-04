@@ -1,9 +1,9 @@
 {
   "name": "string-utils-cod",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A utility library for string manipulations",
-  "main": "dist/index.cjs",
-  "module": "dist/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "exports": {
     "import": "./dist/index.js",
