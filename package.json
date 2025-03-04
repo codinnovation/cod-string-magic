@@ -1,18 +1,27 @@
 {
   "name": "string-utils-cod",
-  "version": "1.0.1",
-  "main": "index.js",
-  "license": "MIT",
+  "version": "1.0.2",
+  "description": "A utility library for string manipulations",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "exports": {
-    "import": "./index.js",
-    "require": "./index.cjs"
-  },
-  "devDependencies": {
-    "@types/node": "^22.13.9",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.8.2"
+    "import": "./dist/index.js",
+    "require": "./dist/index.cjs"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsup src/index.ts --format esm,cjs --dts"
+  },
+  "keywords": [
+    "string",
+    "utils",
+    "truncate",
+    "capitalize"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2"
   }
 }
