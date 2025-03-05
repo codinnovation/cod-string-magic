@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codinnovation/string-utils.git"
+    "url": "git+https://github.com/codinnovation/cod-string-magic.git"
   },
   "keywords": [
     "string",
@@ -23,7 +23,7 @@
   "author": "Cod Innovations",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/codinnovation/string-utils/issues"
+    "url": "https://github.com/codinnovation/cod-string-magic/issues"
   },
-  "homepage": "https://github.com/codinnovation/string-utils#readme"
+  "homepage": "https://github.com/codinnovation/cod-string-magic#readme"
 }
