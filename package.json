@@ -1,27 +1,29 @@
 {
   "name": "string-utils-cod",
-  "version": "1.0.3",
-  "description": "A utility library for string manipulations",
-  "main": "dist/index.js",
-  "module": "dist/index.esm.js",
-  "types": "dist/index.d.ts",
-  "exports": {
-    "import": "./dist/index.js",
-    "require": "./dist/index.cjs"
-  },
+  "version": "1.0.0",
+  "description": "A powerful and lightweight npm library for string manipulation.",
+  "main": "index.js",
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --dts"
+    "test": "node test.js"
   },
-  "keywords": [
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codinnovation/string-utils.git"
+  },
+"keywords": [
     "string",
-    "utils",
     "truncate",
-    "capitalize"
+    "capitalize",
+    "reverse",
+    "palindrome",
+    "camelcase",
+    "snakecase",
+    "kebabcase"
   ],
-  "author": "Your Name",
+  "author": "Cod Innovations",
   "license": "MIT",
-  "devDependencies": {
-    "tsup": "^8.4.0",
-    "typescript": "^5.8.2"
-  }
+  "bugs": {
+    "url": "https://github.com/codinnovation/string-utils/issues"
+  },
+  "homepage": "https://github.com/codinnovation/string-utils#readme"
 }
