@@ -1,6 +1,6 @@
 {
   "name": "string-utils-cod",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A powerful and lightweight npm library for string manipulation.",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/codinnovation/string-utils.git"
   },
-"keywords": [
+  "keywords": [
     "string",
     "truncate",
     "capitalize",
