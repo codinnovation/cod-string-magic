@@ -1,0 +1,16 @@
+export declare function truncate(str: string, maxLength: number, ellipsis?: string): string;
+export declare function capitalize(str: string): string;
+export declare function capitalizeAll(str: string): string;
+export declare function reverseString(str: string): string;
+export declare function toCamelCase(str: string): string;
+export declare function toSnakeCase(str: string): string;
+export declare function toKebabCase(str: string): string;
+export declare function removeWhitespace(str: string): string;
+export declare function countWords(str: string): number;
+export declare function isPalindrome(str: string): boolean;
+export declare function toTitleCase(str: string): string;
+export declare function slugify(str: string): string;
+export declare function randomString(length?: number): string;
+export declare function maskString(str: string, visibleStart?: number, visibleEnd?: number, maskChar?: string): string;
+export declare function countOccurrences(str: string, substring: string): number;
+export declare function isEmpty(str: string): boolean;
